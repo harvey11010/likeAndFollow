@@ -1,0 +1,10 @@
+### 음식점 ID, 댓글 ID
+@restaurantId = 1
+@commentId = 1
+
+
+### 좋아요 등록 1 - 음식점
+PUT http://localhost:8080/like/RESTAURANT/{{restaurantId}}
+
+### 좋아요 등록 2 - 댓글
+PUT http://localhost:8080/like/COMMENT/{{commentId}}
